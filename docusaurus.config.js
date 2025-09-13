@@ -23,7 +23,7 @@ const config = {
   url: 'https://uranus.myumoon.ink',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/doc/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -95,8 +95,8 @@ const config = {
           },
           {to: '/blog', label: '开发日志', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/HaooooZhang/UranusDoc',
+            label: '开发文档',
             position: 'right',
           },
         ],
