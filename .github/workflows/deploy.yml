@@ -22,6 +22,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          
           allow_empty_commit: false
           keep_files: false
           force_orphan: true
